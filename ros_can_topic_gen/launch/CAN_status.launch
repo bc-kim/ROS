@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="ros_can_topic_gen" type="CAN_Status_reader_node" name="CAN_Status_reader_node"/>
+  <node pkg="ros_can_rx_bc" type="ros_can_rx_to_node" name="ros_can_rx_to_node"/>
+  <node pkg="socketcan_bridge" type="ros_bc_cantopic" name="ros_bc_cantopic"/>
+</launch>

@@ -1,0 +1,17 @@
+bus:  
+  device: can0
+  loopback: false
+  driver_plugin: can::SocketCANInterface
+  master_allocator: canopen::SimpleMaster::Allocator
+sync:
+  interval_ms: 10
+  update_ms: <interval_ms>
+  overflow: 0
+  #heartbeat: # simple heartbeat producer, optional!
+  #rate: 20 # heartbeat rate
+  msg: "77f#05" # message to send, cansend format: heartbeat of node 127 with status 5=Started
+
+node1:
+    id: 1
+    eds_pkg: canopen_chain_node # optionals package name for relative path
+    eds_file: "config/sample_eds.eds" # path to EDS/DCF file

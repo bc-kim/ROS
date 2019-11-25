@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/gripit/catkin_ws/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/gripit/catkin_ws/src/bc_can_pkgs/include/**",
+                "/home/gripit/catkin_ws/src/ros_canopen-kinetic/canopen_402/include/**",
+                "/home/gripit/catkin_ws/src/ros_canopen-kinetic/canopen_chain_node/include/**",
+                "/home/gripit/catkin_ws/src/ros_canopen-kinetic/canopen_master/include/**",
+                "/home/gripit/catkin_ws/src/canopen_motor_node/include/**",
+                "/home/gripit/catkin_ws/src/filters-hydro-devel/include/**",
+                "/home/gripit/catkin_ws/src/ros_can_gen_topic/include/**",
+                "/home/gripit/catkin_ws/src/ros_can_rx_bc/include/**",
+                "/home/gripit/catkin_ws/src/ros_topic_generator/include/**",
+                "/home/gripit/catkin_ws/src/rost_tutorial_190323/include/**",
+                "/home/gripit/catkin_ws/src/ros_canopen-kinetic/socketcan_bridge/include/**",
+                "/home/gripit/catkin_ws/src/ros_canopen-kinetic/socketcan_interface/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

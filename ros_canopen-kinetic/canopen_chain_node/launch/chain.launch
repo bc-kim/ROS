@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="canopen_chain_node" type="canopen_chain_node" name="canopen_chain_node" >
+  <rosparam file="$(find canopen_chain_node)/configuration/my_yaml.yaml" command="load" />
+  </node>
+</launch>

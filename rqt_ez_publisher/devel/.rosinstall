@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/gripit/catkin_ws/src/rqt_ez_publisher-kinetic-devel/devel/setup.sh
