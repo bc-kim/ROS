@@ -2,4 +2,4 @@
 1. bc_can_pkgs
 
 2. test,,ghgh
-edit
+edit a test
